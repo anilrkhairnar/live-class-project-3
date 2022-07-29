@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ---------- NAVBAR ------------ */
+nav {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  width: 150px;
+  cursor: pointer;
+}
+nav .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav .list .list-item {
+  margin: 0 20px;
+  color: #8b8a81;
+  cursor: pointer;
+  font-weight: 400;
+}
+nav .list .list-item.active {
+  color: #fff;
+}
+nav div .button-small {
+  margin: 0 20px;
+  padding: 10px 20px;
+  background: none;
+  color: #a08f36;
+  border: 1px solid #a08f36;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+}
+nav div .button-small:hover {
+  background-color: #a08f36;
+  color: #fff;
+}
+
+/* ------------------------------ */
+
+/* -------- Hero Section -------- */
+
+.hero .hero-top {
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .hero-top .hero-heading {
+  width: 90rem;
+  font-size: 60px;
+  color: #fff;
+}
+.hero .hero-top p {
+  padding: 0 170px;
+  font-size: 16px;
+  color: #8b8a81;
+}
+.hero .pagination .img-box {
+  width: 100%;
+  height: 35rem;
+  overflow: hidden;
+}
+.hero .pagination .img-box img {
+  position: relative;
+  bottom: 250px;
+  right: 0;
+  width: 100%;
+}
+.hero .pagination .pagingation-btns {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero .pagination .pagingation-btns div {
+  padding: 50px;
+  background-color: #39372d;
+}
+
+.hero .pagination .pagingation-btns div.next-btn {
+  background-color: #a08f36;
+}
+.hero .pagination .pagingation-btns div span {
+  padding: 20px 26px;
+  background: none;
+  border: 2px solid #a08f36;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.hero .pagination .pagingation-btns div.next-btn span {
+  border-color: #fff;
+}
+.hero .pagination .pagingation-btns div span i {
+  font-size: 20px;
+  color: #a08f36;
+}
+.hero .pagination .pagingation-btns div.next-btn span i {
+  color: #fff;
+}
+
+/* hover effects */
+.hero .pagination .pagingation-btns div span:hover {
+  background-color: #a08f36;
+}
+.hero .pagination .pagingation-btns div span:hover i {
+  color: #fff;
+}
+.hero .pagination .pagingation-btns div.next-btn span:hover {
+  background-color: #fff;
+}
+.hero .pagination .pagingation-btns div.next-btn span:hover i {
+  color: #a08f36;
+}
